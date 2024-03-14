@@ -1,0 +1,30 @@
+{
+    "name": "snake-game",
+    "version": "1.0.0",
+    "description": "A classic Snake game implemented using Node.js with TypeScript for the backend and React 18 with TypeScript for the frontend.",
+    "main": "server/index.ts",
+    "scripts": {
+        "start": "bun server/run.ts",
+        "dev": "bun i && bun --watch server/index.ts"
+    },
+    "dependencies": {
+        "express": "latest",
+        "socket.io": "latest",
+        "sqlite3": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "tailwindcss": "latest",
+        "@types/express": "latest",
+        "@types/socket.io": "latest",
+        "@types/sqlite3": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "esbuild": "latest",
+        "socket.io-client": "latest",
+        "cookie-parser": "latest"
+    },
+    "devDependencies": {
+        "typescript": "latest",
+        "@types/node": "latest"
+    }
+}
